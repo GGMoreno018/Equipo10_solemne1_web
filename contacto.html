@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destino Cordillera - Contacto</title>
+    <!-- Incluimos Bootstrap para esta página -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="logo">Destino Cordillera</div>
+        <ul class="nav-links"> <!-- Usamos <ul> en lugar de <div> -->
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="panoramas.html">Panoramas</a></li>
+            <li><a href="alojamiento.html">Alojamiento</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li> <!-- Clase 'active' movida a Contacto -->
+        </ul>
+    </nav>
+
+    <!-- Sección de Contacto -->
+    <main class="container mt-5 pt-5 mb-5">
+        <h1 class="text-center mb-5 fw-bold text-dark">Reserva y Contacto</h1>
+
+        <div class="row g-4">
+            <!-- Formulario de Reserva -->
+            <section class="col-lg-6">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body p-4">
+                        <h4 class="card-title mb-4">Envíanos un mensaje</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre completo</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ej. Juan Pérez"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="actividad" class="form-label">Motivo</label>
+                                <select class="form-select" id="actividad">
+                                    <option selected>Selecciona una opción...</option>
+                                    <option value="1">Reserva de alojamiento</option>
+                                    <option value="2">Reserva de panorama / excursión</option>
+                                    <option value="3">Consulta general</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="4"
+                                    placeholder="Escribe aquí los detalles de tu reserva o dudas..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 fw-bold py-2">Enviar Solicitud</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Datos de Contacto y Ubicación Referencial -->
+            <section class="col-lg-6">
+                <div class="card shadow-sm border-0 h-100 bg-white">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <h4 class="card-title mb-4">Información Directa</h4>
+                        <p><strong>Ubicación:</strong> Av. Los Montañeses 123, Destino Cordillera.</p>
+                        <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+                        <p><strong>Email:</strong> reservas@destinocordillera.cl</p>
+
+                        <!-- Mapa referencial simulado -->
+                        <div class="mt-auto rounded bg-secondary text-white d-flex align-items-center justify-content-center"
+                            style="height: 300px; opacity: 0.8;">
+                            <span class="fs-5">🗺️ [Mapa Referencial de Ubicación]</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Script de Bootstrap para el menú responsivo en móviles -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
