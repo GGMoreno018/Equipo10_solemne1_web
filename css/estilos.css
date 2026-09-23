@@ -263,3 +263,28 @@ footer {
 .panorama-card .btn {
     align-self: flex-start;
 }
+
+/* Titulos de seccion (Alojamiento y Gastronomía) */
+.seccion-titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1e293b;
+    padding-top: 1rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+
+.seccion-titulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #2563eb;
+    border-radius: 2px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
