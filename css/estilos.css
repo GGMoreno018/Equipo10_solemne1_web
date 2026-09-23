@@ -1,4 +1,3 @@
-/* Importamos una tipografía moderna desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
 * {
@@ -13,7 +12,6 @@ body {
     color: #1e293b;
 }
 
-/* Barra de Navegación */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,7 +19,6 @@ body {
     padding: 1.5rem 5%;
     background-color: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(10px);
-    /* Efecto de cristal */
     position: fixed;
     width: 100%;
     top: 0;
@@ -35,7 +32,6 @@ body {
     font-size: 1.5rem;
     font-weight: 800;
     color: #2563eb;
-    /* Azul vibrante */
 }
 
 .nav-links {
@@ -59,10 +55,8 @@ body {
     color: #2563eb;
 }
 
-/* Sección Hero (Principal) */
 .hero {
     height: 100vh;
-    /* Imagen de fondo con una capa oscura encima para que el texto sea legible */
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
         url('../img/montañas.jpg') center/cover;
     display: flex;
@@ -87,7 +81,6 @@ body {
     margin-right: auto;
 }
 
-/* Botones Personalizados */
 .btn {
     padding: 0.8rem 2rem;
     background-color: #2563eb;
@@ -102,7 +95,6 @@ body {
 .btn:hover {
     background-color: #1d4ed8;
     transform: translateY(-3px);
-    /* Animación al pasar el mouse */
 }
 
 .btn-outline {
@@ -121,7 +113,6 @@ body {
     color: white;
 }
 
-/* Tarjetas de Accesos Principales */
 .secciones-principales {
     display: flex;
     gap: 2rem;
@@ -163,7 +154,6 @@ footer {
     color: #94a3b8;
 }
 
-/* Panoramas */
 .panoramas-header {
     padding-top: 120px;
     text-align: center;
@@ -264,7 +254,6 @@ footer {
     align-self: flex-start;
 }
 
-/* Titulos de seccion (Alojamiento y Gastronomía) */
 .seccion-titulo {
     text-align: center;
     font-size: 2rem;
