@@ -59,5 +59,5 @@ Equipo10_solemne1_web/
 | Integrante | Responsabilidades |
 |---|---|
 | **Gabriel Moreno** | Estructura del repositorio, `index.html`, hoja de estilos base `css/estilos.css`, creación y ajustes de `contacto.html` |
-| **Brandon Valdes** | Diseño y desarrollo de `panoramas.html` (tarjetas de actividades)
-| **Cristobal Garrido** | Diseño y desarrollo de `alojamiento.html` (alojamiento y gastronomía)
+| **Brandon Valdes** | Diseño y desarrollo de `panoramas.html` (tarjetas de actividades) |
+| **Cristobal Garrido** | Diseño y desarrollo de `alojamiento.html` (alojamiento y gastronomía) |
