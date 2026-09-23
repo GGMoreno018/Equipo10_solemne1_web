@@ -20,9 +20,8 @@ Sitio web turístico que presenta el destino "Destino Cordillera" con informaci�
    ```bash
    git clone https://github.com/GGMoreno018/Equipo10_solemne1_web.git
    ```
-2. Abrir el archivo `index.html` en un navegador web (Chrome, Firefox, Edge, etc.).
+2. Abrir el archivo `index.html` en un navegador web 
 
-No requiere servidor ni instalación de dependencias. Las páginas están conectadas por enlaces relativos.
 
 ## Páginas
 
@@ -60,5 +59,5 @@ Equipo10_solemne1_web/
 | Integrante | Responsabilidades |
 |---|---|
 | **Gabriel Moreno** | Estructura del repositorio, `index.html`, hoja de estilos base `css/estilos.css`, creación y ajustes de `contacto.html` |
-| **Brandon Valdes** | Diseño y desarrollo de `panoramas.html` (tarjetas de actividades), ajustes de formato del sitio |
-| **Cristobal Garrido** | Diseño y desarrollo de `alojamiento.html` (alojamiento y gastronomía), estilos de secciones, footer y `<main>` en todas las páginas, depuración del código |
+| **Brandon Valdes** | Diseño y desarrollo de `panoramas.html` (tarjetas de actividades)
+| **Cristobal Garrido** | Diseño y desarrollo de `alojamiento.html` (alojamiento y gastronomía)
